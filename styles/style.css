@@ -5,8 +5,13 @@
   --heading-font: "Playfair Display", serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--heading-font);
+}
+
+h1 {
   font-size: 96px;
 }
 
@@ -36,4 +41,32 @@ h1 {
   font-weight: normal;
   line-height: 27px;
   padding: 18px 46px;
+}
+
+.recent-work h2 {
+  font-size: 64px;
+}
+
+.recent-work a {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.container h2 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.container p {
+  font-family: var(--default-font);
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.weather-project,
+.portfolio-project {
+  background: var(--primary-color);
+  padding: 50px;
+
+  text-align: center;
 }
