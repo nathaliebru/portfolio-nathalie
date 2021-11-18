@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 40px;
 }
 
 p {
@@ -55,10 +55,6 @@ p {
   padding: 18px 46px;
 }
 
-.recent-work h2 {
-  font-size: 64px;
-}
-
 .recent-work a {
   font-size: 20px;
   color: var(--secondary-color);
@@ -80,4 +76,36 @@ p {
   font-weight: normal;
   line-height: 27px;
   padding: 18px 46px;
+}
+
+@media (max-width: 976px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+
+  .container img {
+    display: none;
+  }
 }
