@@ -11,7 +11,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font);
 }
 
@@ -22,6 +23,10 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 40px;
+}
+
+h4 {
+  font-size: 48px;
 }
 
 p {
@@ -57,6 +62,37 @@ nav a {
 nav li.active a,
 nav a:hover {
   color: var(--secondary-color);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  margin: 0 30px;
+  font-size: 18px;
+  text-align: center;
+  background: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+footer .work-inquiry-box {
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+footer p {
+  margin: 0;
 }
 
 .logo {
@@ -102,6 +138,7 @@ nav a:hover {
   background: var(--primary-color);
   padding: 30px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .btn-branding-outline {
@@ -147,7 +184,7 @@ nav a:hover {
   margin: 30px;
 }
 
-@media (max-width: 976px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 50px;
   }
@@ -158,6 +195,10 @@ nav a:hover {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .weather-project {
+    margin: 20px;
   }
 }
 @media (max-width: 576px) {
