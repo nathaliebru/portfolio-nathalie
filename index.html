@@ -31,6 +31,36 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/logo.PNG"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="logo small"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋 Hi, I am</p>
       <h1>Nathalie Bruinhof</h1>
@@ -65,7 +95,6 @@
             alt="Running project"
             class="img-fluid shadow rounded mb-5"
           />
-
           <p class="mb-5">
             This weather app shows real data through API. You can chose your
             current location to see exactly what the weather is in your country.

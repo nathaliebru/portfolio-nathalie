@@ -5,6 +5,10 @@
   --heading-font: "Playfair Display", serif;
 }
 
+body {
+  font-family: var(--default-font);
+}
+
 h1,
 h2,
 h3 {
@@ -25,6 +29,39 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+nav {
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+nav img {
+  max-height: 35px;
+  border: thick double #000;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  padding-left: 20px;
+  list-style: none;
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
 }
 
 .hero {
