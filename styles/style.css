@@ -83,6 +83,12 @@ footer .social-links a {
   background: var(--primary-color);
   padding: 10px 15px;
   border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 footer .work-inquiry-box {
