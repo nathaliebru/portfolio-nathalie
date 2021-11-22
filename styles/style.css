@@ -36,11 +36,6 @@ nav {
   font-weight: 500;
 }
 
-nav img {
-  max-height: 35px;
-  border: thick double #000;
-}
-
 nav ul {
   padding: 0;
   margin: 0;
@@ -62,6 +57,11 @@ nav a {
 nav li.active a,
 nav a:hover {
   color: var(--secondary-color);
+}
+
+.logo {
+  max-height: 35px;
+  border: thick double #000;
 }
 
 .hero {
@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content h1 {
