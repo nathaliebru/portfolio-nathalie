@@ -82,17 +82,27 @@ p {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font);
 }
 
-.content-container img {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+  font-weight: 900;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content img {
   padding: 0 30px 30px;
 }
 
@@ -125,6 +135,10 @@ p {
   }
   .hero p {
     font-size: 25px;
+  }
+
+  .content h1 {
+    font-size: 40px;
   }
 
   .recent-work-projects img {
