@@ -48,7 +48,7 @@ nav ul {
 
 nav li {
   display: inline;
-  padding-left: 20px;
+  padding-left: 10px;
   list-style: none;
   line-height: 40px;
 }
@@ -135,7 +135,18 @@ footer a {
   font-size: 18px;
   font-weight: normal;
   line-height: 27px;
-  padding: 18px 46px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  background: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .recent-work a {
@@ -149,17 +160,6 @@ footer a {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-}
-
-.btn-branding-outline {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  background: var(--primary-color);
-  border-radius: 4px;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 27px;
-  padding: 18px 46px;
 }
 
 .content-container {
@@ -183,18 +183,23 @@ footer a {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .content img {
   padding: 0 30px 30px;
 }
 
+.content-links a {
+  color: var(--secondary-color);
+}
+
 .content {
   margin: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   h1 {
     font-size: 50px;
   }
@@ -203,10 +208,16 @@ footer a {
     font-size: 30px;
   }
 
-  .weather-project {
-    margin: 20px;
+  .btn {
+    font-size: 15px;
+  }
+
+  .weather-project,
+  .running-project {
+    margin-bottom: 20px;
   }
 }
+
 @media (max-width: 576px) {
   p {
     font-size: 14px;
